@@ -1,0 +1,11 @@
+.burger-btn {
+  background-color: transparent;
+  border: none;
+  padding: 12px 8px;
+
+  &__icon {
+    width: 24px;
+    height: 16px;
+    fill: var(--main-color);
+  }
+}

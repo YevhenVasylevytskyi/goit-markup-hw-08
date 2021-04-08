@@ -1,11 +1,32 @@
 .container {
-  width: 1200px;
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid red;
 
-  .header & {
-    display: flex;
-    align-items: center;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    margin: 0 auto;
   }
 }
+
+// .container {
+//   width: 1200px;
+//   margin: 0 auto;
+//   padding-left: 15px;
+//   padding-right: 15px;
+
+//   .header & {
+//     display: flex;
+//     align-items: center;
+//   }
+// }
