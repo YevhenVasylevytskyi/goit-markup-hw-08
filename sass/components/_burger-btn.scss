@@ -1,11 +1,22 @@
 .burger-btn {
   background-color: transparent;
   border: none;
-  padding: 12px 8px;
+  padding: 0;
 
   &__icon {
-    width: 24px;
-    height: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     fill: var(--main-color);
+  }
+
+  &__icon:focus,
+  &__icon:hover {
+    fill: var(--accent-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 }

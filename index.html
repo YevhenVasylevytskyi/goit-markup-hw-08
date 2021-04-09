@@ -18,7 +18,7 @@
     <!-- Шапка сайта -->
     <header class="header">
 
-        <div class="container">
+        <div class="container container_header">
                
             <nav class="header-nav">
                 <a class="logo logo__header link" href="./index.html" lang="en"><span class="logo__accent">Web</span>Studio</a>
@@ -36,8 +36,8 @@
                 </ul>
             </nav>
 
-            <button type="button" class="burger-btn">
-                <svg class="burger-btn__icon" width="24px" height="16px">
+            <button type="button" class="burger-btn" data-menu-button>
+                <svg class="burger-btn__icon">
                     <use href="./images/icons.svg#burger"></use>
                 </svg>
             </button>
@@ -57,6 +57,59 @@
                         </use>
                     </svg>
                     +38 096 111 11 11</a></li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu" data-menu>
+            <button type="button" class="mobile-menu__close-button" data-menu-close>
+                <svg class="mobile-menu__close-icon">
+                    <use href="./images/icons.svg#close-icon"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__list list">
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link" href="./index.html">Студия</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a class="mobile-menu__link link" href="">Контакты</a>
+                </li>                
+            </ul>
+            <ul class="mobile-contacts list">
+                <li class="mobile-contacts__tell">
+                    <a class="mobile-contacts__link link" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+                <li class="mobile-contacts__mail">
+                    <a class="mobile-contacts__link link" href="mailto:info@devstudio.com" lang="en">
+                        info@devstudio.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="mobile-social list">
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">
+                        Instagram
+                    </a>
+                </li>
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">
+                        Twitter
+                    </a>
+                </li>
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">
+                        Facebook
+                    </a>
+                </li>
+                <li class="mobile-social__item">
+                    <a href="" class="mobile-social__link link">
+                        LinkedIn
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -450,7 +503,7 @@
         <div class="modal">
             <button type="button" class="modal__close-btn" data-modal-close>
                 <svg width="18" height="18">
-                    <use href="./images/icons.svg#close-black"></use>
+                    <use href="./images/icons.svg#close-icon"></use>
                 </svg>
             </button>
             <b>Оставьте свои данные, мы вам перезвоним</b>
@@ -489,7 +542,7 @@
             </form>
         </div>
     </div> -->
-
+    <script src="./js/mobil-menu.js"></script>
     <!-- <script src="./js/modal.js"></script> -->
 </body>
 </html>

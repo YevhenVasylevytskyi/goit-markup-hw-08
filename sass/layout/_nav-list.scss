@@ -1,5 +1,9 @@
 .nav-list {
   display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 // .nav-list {
 //   display: flex;
