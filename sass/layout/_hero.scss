@@ -1,18 +1,44 @@
 .hero {
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url('../images/index/hero.jpg');
-  background-repeat: no-repeat;
-  background-color: var(--hero-color);
 
   @media screen and (max-width: 768px) {
     max-width: 480px;
     padding-top: 118px;
-    padding-bottom: 188px;
+    padding-bottom: 118px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url('../images/index/hero/hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-color: var(--hero-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url('../images/index/hero/hero-tablet.jpg');
+    background-repeat: no-repeat;
+    background-color: var(--hero-color);
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url('../images/index/hero/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-color: var(--hero-color);
   }
 
   &-title {
