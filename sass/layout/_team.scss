@@ -1,3 +1,18 @@
+.team {
+  background-color: var(--team-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__title {
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+  }
+}
 // .team {
 //   background-color: var(--team-background-color);
 //   padding-top: var(--section-pt);

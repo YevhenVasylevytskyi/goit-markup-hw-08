@@ -1,4 +1,8 @@
 .burger-btn {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
   background-color: transparent;
   border: none;
   padding: 0;
@@ -14,9 +18,5 @@
   &__icon:focus,
   &__icon:hover {
     fill: var(--accent-color);
-  }
-
-  @media screen and (min-width: 768px) {
-    display: none;
   }
 }
