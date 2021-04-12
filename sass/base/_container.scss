@@ -2,7 +2,7 @@
   padding-left: 15px;
   padding-right: 15px;
 
-  &__header {
+  &_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,20 +11,20 @@
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    max-width: 480px;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 // .container {
