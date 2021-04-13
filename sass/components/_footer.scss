@@ -18,21 +18,13 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
-  &-address {
-    // margin-right: 70px;
-  }
 
   &-social-link {
     margin-bottom: 60px;
-    // margin-right: 93px;
   }
 
   &-email {
-    // display: inline-block;
-    // margin: 0 auto;
     text-align: center;
-    // margin-left: auto;
-    // width: 570px;
   }
 }
 
@@ -184,28 +176,25 @@
 
 @media screen and (min-width: 1200px) {
   .footer {
-    // padding-top: 60px;
-    // padding-bottom: 60px;
-    // background-color: var(--backround-footer);
+    &__tablet {
+      align-items: baseline;
+    }
 
     &-desktop {
       display: flex;
+      justify-content: flex-start;
       align-items: baseline;
     }
 
     &-title {
-      //   margin-bottom: 20px;
-      //   //   color: var(--footer-color);
-      //   font-family: Roboto;
-      //   font-weight: 700;
-      //   font-size: 14px;
-      //   line-height: 1.14;
-      //   letter-spacing: 0.03em;
-      //   text-transform: uppercase;
+      width: 100%;
+      text-align: left;
     }
 
     &-address {
+      margin-left: 0;
       margin-right: 70px;
+      text-align: left;
     }
 
     &-social-link {
@@ -214,46 +203,20 @@
 
     &-email {
       display: inline-block;
-      margin-left: auto;
       width: 570px;
     }
   }
 
   .email-form {
+    display: inline-flex;
+
     &__input {
       width: 358px;
+      margin-right: 12px;
     }
 
-    &__btn
+    &__btn {
+      width: 200px;
+    }
   }
 }
-//   &-info {
-//     display: flex;
-//     align-items: baseline;
-//   }
-
-//   &-title {
-//     margin-bottom: 20px;
-//     color: var(--footer-color);
-//     font-family: Roboto;
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//   }
-
-//   &-address {
-//     margin-right: 70px;
-//   }
-
-//   &-social-link {
-//     margin-right: 93px;
-//   }
-
-//   &-email {
-//     display: inline-block;
-//     margin-left: auto;
-//     width: 570px;
-//   }
-// }

@@ -6,6 +6,11 @@
     &__item {
       max-width: 100%;
     }
+
+    &__item:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
     &__img {
       display: flex;
       justify-content: center;
