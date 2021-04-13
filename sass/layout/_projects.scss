@@ -1,7 +1,6 @@
 .projects-list {
   &__item {
     display: block;
-    max-width: 450px;
   }
 
   &__item:not(:last-child) {
@@ -17,6 +16,12 @@
   &__item:hover &__owerlay,
   &__item:focus &__owerlay {
     transform: translateY(0%);
+  }
+
+  .projects-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
   }
 
   &__wrapper {
@@ -51,7 +56,7 @@
   }
 
   &__name {
-    display: block;
+    // display: block;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 20px;
