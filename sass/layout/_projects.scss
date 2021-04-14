@@ -56,6 +56,7 @@
   }
 
   &__name {
+    // flex-grow: 1;
     // display: block;
     padding-left: 24px;
     padding-right: 24px;
@@ -92,6 +93,10 @@
     margin-left: -30px;
     margin-top: -30px;
 
+    &__name {
+      flex-grow: 1;
+    }
+
     &__item {
       margin-left: 30px;
       margin-top: 30px;
@@ -103,6 +108,7 @@
 @media screen and (min-width: 1200px) {
   .projects-list {
     &__item {
+      display: flex;
       margin-left: 30px;
       margin-top: 30px;
       flex-basis: calc((100% - 90px) / 3);

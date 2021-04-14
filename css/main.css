@@ -1368,6 +1368,11 @@ img {
     margin-left: -30px;
     margin-top: -30px;
   }
+  .projects-list__name {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
   .projects-list__item {
     margin-left: 30px;
     margin-top: 30px;
@@ -1378,6 +1383,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .projects-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-left: 30px;
     margin-top: 30px;
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
