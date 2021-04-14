@@ -1199,6 +1199,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .filter-list__btn {
@@ -1242,6 +1243,7 @@ img {
     padding-bottom: 30px;
   }
   .filter-list {
+    margin-bottom: 50px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1366,7 +1368,6 @@ img {
   }
   .projects-list__item {
     margin-left: 30px;
-    margin-top: 30px;
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
   }
@@ -1378,7 +1379,6 @@ img {
     display: -ms-flexbox;
     display: flex;
     margin-left: 30px;
-    margin-top: 30px;
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);
   }
