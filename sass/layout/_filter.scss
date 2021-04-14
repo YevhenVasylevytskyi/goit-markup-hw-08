@@ -1,6 +1,6 @@
 .filter {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--mt-section-pt);
+  padding-bottom: var(--mt-section-pb);
 
   &-list {
     display: flex;
@@ -46,7 +46,7 @@
 
 @media screen and (min-width: 768px) {
   .filter {
-    padding-top: 60px;
+    padding-top: var(--mt-section-pt);
     padding-bottom: 30px;
 
     &-list {
