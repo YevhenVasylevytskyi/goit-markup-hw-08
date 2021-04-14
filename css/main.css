@@ -12,6 +12,8 @@
   --background-button-color: #f5f4fa;
   --backround-footer: #2f303a;
   --footer-link-contact-color: rgba(255, 255, 255, 0.6);
+  --mt-section-pt: 60px;
+  --mt-section-pt: 60px;
   --section-pt: 94px;
   --section-pb: 94px;
   --link-social-color: #afb1b8;
@@ -799,8 +801,8 @@ img {
 }
 
 .feature {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--mt-section-pt);
+  padding-bottom: var(--mt-section-pb);
 }
 
 .feature-list__item {
@@ -875,12 +877,8 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: -30px;
-    margin-top: -30px;
   }
   .feature-list__item {
-    margin-left: 30px;
-    margin-top: 30px;
     -ms-flex-preferred-size: calc((100% - 120px) / 4);
         flex-basis: calc((100% - 120px) / 4);
   }
