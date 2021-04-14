@@ -1266,7 +1266,9 @@ img {
 }
 
 .projects-list__item {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .projects-list__item:not(:last-child) {
