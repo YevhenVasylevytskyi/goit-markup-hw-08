@@ -114,6 +114,9 @@
 
 @media screen and (min-width: 1200px) {
   .team {
+    padding-top: var(--section-pt);
+    padding-bottom: var(--section-pb);
+
     &__title {
       margin-bottom: 50px;
       font-size: 26px;
