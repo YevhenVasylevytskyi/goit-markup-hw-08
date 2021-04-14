@@ -71,5 +71,10 @@
       (min-resolution: 2dppx) {
       background-image: url('../images/index/hero/hero-desktop@2x.jpg');
     }
+
+    &-title {
+      font-size: 44px;
+      line-height: 1.36;
+    }
   }
 }

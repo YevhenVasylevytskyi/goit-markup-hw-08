@@ -791,6 +791,13 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
+
 .feature {
   padding-top: 60px;
   padding-bottom: 60px;
