@@ -955,8 +955,8 @@ img {
 
 .team {
   background-color: var(--team-background-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: var(--mt-section-pt);
+  padding-bottom: var(--mt-section-pb);
 }
 
 .team__title {
