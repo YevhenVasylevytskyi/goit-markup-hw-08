@@ -1547,9 +1547,9 @@ img {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.025em;
   color: var(--secondary-color);
   cursor: pointer;
 }
@@ -1640,6 +1640,10 @@ img {
   .modal {
     width: 528px;
     height: 581px;
+  }
+  .modal__check-desc {
+    font-size: 14px;
+    line-height: 1.71;
   }
 }
 
