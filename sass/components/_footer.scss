@@ -81,11 +81,6 @@
   &__link:focus {
     background-color: var(--accent-color);
   }
-
-  &__link:hover svg,
-  &__link:focus svg {
-    fill: var(--footer-color);
-  }
 }
 
 .email-form {

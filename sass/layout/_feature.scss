@@ -58,6 +58,10 @@
         margin-top: 30px;
         flex-basis: calc((100% - 60px) / 2);
       }
+
+      &__title {
+        text-align: left;
+      }
     }
   }
 }

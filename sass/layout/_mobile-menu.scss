@@ -7,7 +7,6 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  max-width: 480px;
   padding: 48px 40px;
   background-color: var(--light-color);
   transform: translateY(-100%);
@@ -51,6 +50,10 @@
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: var(--button-color);
+
+    &_current {
+      color: var(--accent-color);
+    }
   }
 
   &__link:focus,
@@ -61,6 +64,10 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
+}
+
+.accent {
+  color: var(--accent-color);
 }
 
 .is-open {

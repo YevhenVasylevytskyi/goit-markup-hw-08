@@ -121,6 +121,7 @@
   &__check-desc {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     font-weight: 400;
     font-size: 12px;
@@ -192,12 +193,12 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  .modal {
-    max-width: 90vw;
-    max-height: 80vh;
-  }
-}
+// @media screen and (max-width: 480px) {
+//   .modal {
+//     // max-width: 90vw;
+//     // max-height: 80vh;
+//   }
+// }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .modal {
