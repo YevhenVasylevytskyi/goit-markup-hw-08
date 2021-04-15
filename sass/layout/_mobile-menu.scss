@@ -7,6 +7,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
+  max-width: 480px;
   padding: 48px 40px;
   background-color: var(--light-color);
   transform: translateY(-100%);
@@ -93,6 +94,7 @@
   padding-top: 32px;
   padding-bottom: 5px;
   display: flex;
+  flex-wrap: wrap;
 
   &__item:not(:first-child) {
     padding-left: 10px;
